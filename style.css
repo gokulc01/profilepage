@@ -1,0 +1,137 @@
+/* --- General Body Styles --- */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* --- Main Content Container --- */
+.container {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Profile Header Section --- */
+.profile-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-info h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.profile-info .tagline {
+  font-size: 1.1em;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+/* --- Main Content & Sections --- */
+main section {
+  margin-bottom: 30px;
+}
+
+main h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  color: #3498db;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* --- Education List Styles --- */
+.education-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.education-list li {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-left: 5px solid #3498db;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.education-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+}
+
+.education-list h3 {
+  margin: 0 0 5px 0;
+  color: #34495e;
+  font-size: 1em;
+}
+
+.education-list p {
+  margin: 0;
+  color: #555;
+}
+
+/* --- Skills List Styles --- */
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Provides space between items */
+}
+
+.skills-list li {
+  background-color: #eaf5fc;
+  /* A light blue, matching the heading color theme */
+  color: #347ab6;
+  padding: 8px 15px;
+  border-radius: 20px;
+  /* This creates the "pill" shape */
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.skills-list li:hover {
+  background-color: #3498db;
+  /* Darker blue on hover */
+  color: #ffffff;
+  /* White text on hover */
+}
+
+.skills-list li p {
+  margin: 0;
+}
