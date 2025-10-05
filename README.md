@@ -3,3 +3,6 @@
 ## Simple HTML Homepage
 
 Create a simple home page in html, including profile photo, About me, Educational details and Skills.
+
+## Hosted in github.io
+[Link](https://gokulc01.github.io/profilepage/)
